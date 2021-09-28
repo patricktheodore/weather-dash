@@ -126,7 +126,7 @@ function renderDashboard(city){
 }
 //current forecast
 function getCurrentForecast (city) {
-    var queryURL = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + APIKey + "&units=metric";
+    var queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + APIKey + "&units=metric";
 
     return fetch(queryURL)
     .then(function (response) {
