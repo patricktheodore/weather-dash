@@ -1,4 +1,7 @@
 # weather-dash
+
+link to depolyed app: https://patricktheodore.github.io/weather-dash/
+
 an intuitive weather forecast app using openweather api, moment api, bootstrap and jQuery. 
 
 this weather app allows the user to search for a city and then the current weather is displayed along with a forecast for the next 5 days. 
